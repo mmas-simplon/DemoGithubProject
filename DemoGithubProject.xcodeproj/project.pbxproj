@@ -11,6 +11,7 @@
 		30F995EC26738B3B00A61DDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F995EB26738B3B00A61DDA /* ContentView.swift */; };
 		30F995EE26738B3D00A61DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F995ED26738B3D00A61DDA /* Assets.xcassets */; };
 		30F995F126738B3D00A61DDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F995F026738B3D00A61DDA /* Preview Assets.xcassets */; };
+		30F995FB26738FD500A61DDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F995FA26738FD500A61DDA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		30F995ED26738B3D00A61DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F995F026738B3D00A61DDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30F995F226738B3D00A61DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F995FA26738FD500A61DDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		30F995E826738B3B00A61DDA /* DemoGithubProject */ = {
 			isa = PBXGroup;
 			children = (
+				30F995F826738FA600A61DDA /* Models */,
+				30F995F926738FAE00A61DDA /* Views */,
 				30F995E926738B3B00A61DDA /* DemoGithubProjectApp.swift */,
 				30F995EB26738B3B00A61DDA /* ContentView.swift */,
 				30F995ED26738B3D00A61DDA /* Assets.xcassets */,
@@ -67,6 +71,21 @@
 				30F995F026738B3D00A61DDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30F995F826738FA600A61DDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30F995FA26738FD500A61DDA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30F995F926738FAE00A61DDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				30F995EC26738B3B00A61DDA /* ContentView.swift in Sources */,
 				30F995EA26738B3B00A61DDA /* DemoGithubProjectApp.swift in Sources */,
+				30F995FB26738FD500A61DDA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
