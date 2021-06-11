@@ -15,6 +15,7 @@ struct ContentView: View {
                 .padding()
             Text("Hello, Mickaël!")
                 .foregroundColor(Color.red)
+            
             HStack {
                 Image(systemName: "circle.fill")
                     .font(.largeTitle)
@@ -27,7 +28,7 @@ struct ContentView: View {
                 Image(systemName: "circle.fill")
                     .font(.largeTitle)
                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-            }
+            }.padding()
         }
     }
 }
