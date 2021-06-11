@@ -9,10 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, Adrien!")
-                .padding()
-            Text("Hello, Mickaël!")
+        HStack {
+            
+            Image(systemName: "circle.fill")
+                .font(.largeTitle)
+                .foregroundColor(.red)
+            
+            Image(systemName: "circle.fill")
+                .font(.largeTitle)
+                .foregroundColor(.green)
+            
+            Image(systemName: "circle.fill")
+                .font(.largeTitle)
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
         }
     }
 }
